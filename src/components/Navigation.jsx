@@ -12,17 +12,35 @@ const Navigation = ({ hasScrolled }) => {
     >
       <ul className="flex items-center justify-center gap-x-6 py-3">
         <li className="cursor-pointer text-white transition-all duration-200 ease-linear hover:text-black">
-          <Link to="home" smooth={true} duration={500}>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+          >
             Home
           </Link>
         </li>
         <li className="cursor-pointer text-white transition-all duration-200 ease-linear hover:text-black">
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+          >
             About
           </Link>
         </li>
         <li className="cursor-pointer text-white transition-all duration-200 ease-linear hover:text-black">
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            spy={true}
+            activeClass="active"
+          >
             Contact
           </Link>
         </li>

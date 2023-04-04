@@ -5,23 +5,20 @@ const Content = () => {
   return (
     <>
       <Element name="home">
-        <div className="h-screen bg-[#f8c291]">
-          <h1>Section 1</h1>
-          <p>This is the content for section 1.</p>
+        <div className="flex h-screen items-center justify-center bg-[#6a89cc]">
+          <h1>Home</h1>
         </div>
       </Element>
 
       <Element name="about">
-        <div className="h-screen bg-[#6a89cc]">
-          <h1>Section 2</h1>
-          <p>This is the content for section 2.</p>
+        <div className="flex h-screen items-center justify-center bg-[#f8c291]">
+          <h1>About</h1>
         </div>
       </Element>
 
       <Element name="contact">
-        <div className="h-screen bg-[#60a3bc]">
-          <h1>Section 3</h1>
-          <p>This is the content for section 3.</p>
+        <div className="flex h-screen items-center justify-center bg-[#60a3bc]">
+          <h1>Contact</h1>
         </div>
       </Element>
     </>
